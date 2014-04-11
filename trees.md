@@ -1,11 +1,11 @@
-#def search_char(string,num):
+def search_char(string,num):
     counter=0
     counter2=0
     counter3=0
     dumb=0
     ans=""
     string="(((AC)4B)2(DE)3)"
-    num=4 
+    num=4
     while dumb != 1:
         if string[counter]==")" and string[counter+1]==num:
             counter2=counter
@@ -18,10 +18,10 @@
                     return ans
         print string[counter]
         counter=counter+1
-    
-    
-    
+
+
+
 
 #string="(((AC)4B)2(DE)3)"
-#num=4    
+#num=4
 #print search_char(string,num)
